@@ -10,7 +10,12 @@ zuul:
   routes:
     user:
       path:/user/**
-      serviceId:user-service
+#      serviceId:user-service
+      url:http://localhost:8082
       stripPrefix:false
+    todos:
+    path:/todos/**
+    url:http//localhost:8088
+    stripPrefix:false
   
 sensitive-headers:
