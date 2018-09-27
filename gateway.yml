@@ -1,0 +1,16 @@
+server:
+  port:8080
+  context-path:/api
+
+user-service:
+  ribbon:
+    listOfService:localhost:8001,localhost:8082
+   
+zuul:
+  routes:
+    user:
+      path:/user/**
+      serviceId:user-service
+      stripPrefix:false
+  
+sensitive-headers:
