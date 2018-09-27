@@ -15,7 +15,7 @@ zuul:
     sensitiveHeaders:
     user:
       serviceId: userService
-      path: /users/**
+      path: /user/**
       stripPrefix: false
 
     todo:
