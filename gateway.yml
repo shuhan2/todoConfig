@@ -13,12 +13,12 @@ todoService:
 zuul:
   routes:
     sensitiveHeaders:
-    user:
+    users:
       serviceId: userService
       path: /user/**
       stripPrefix: false
 
-    todo:
+    todos:
       serviceId: todoService
       path: /todos/**
       stripPrefix: false
