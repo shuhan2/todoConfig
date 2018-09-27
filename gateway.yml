@@ -1,6 +1,5 @@
 server:
   port:8080
-  context-path:/api
 
 user-service:
   ribbon:
@@ -9,13 +8,13 @@ user-service:
 zuul:
   routes:
     user:
-      path:/user/**
-#      serviceId:user-service
+      path:/api/user/**
       url:http://localhost:8082
-      stripPrefix:false
     todos:
-    path:/todos/**
+    path:/api/todos/**
     url:http//localhost:8088
-    stripPrefix:false
   
 sensitive-headers:
+
+
+
