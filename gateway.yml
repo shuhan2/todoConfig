@@ -22,4 +22,12 @@ zuul:
       serviceId: todoService
       path: /todos/**
       stripPrefix: false
-  
+
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        health-check-path: /api/health
+

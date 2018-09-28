@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/grad-set-up/guess-number" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Gateway" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/configServer" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/demo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/guessNumber" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/hhytodoapi/TW_Todo_Restful_API" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/maniu-guessnumber/zuozuo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/newRestful/TW_Todo_Restful_API" value="PREVIEW" />
+        <entry key="$USER_HOME$/works/micro-todo/GateWay/zuul" value="PREVIEW" />
+        <entry key="$USER_HOME$/works/micro-todo/config-server/config-server-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/works/micro-todo/todo-service/todo-server-micro" value="PREVIEW" />
+        <entry key="$USER_HOME$/works/micro-todo/user-service/user-servier-micro-server" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
