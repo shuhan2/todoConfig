@@ -30,10 +30,3 @@ spring:
       discovery:
         health-check-path: /api/health
 
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 15000
